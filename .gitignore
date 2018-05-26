@@ -1,0 +1,11 @@
+# Node modules
+node_modules
+
+# dist
+dist
+
+# Logs
+*.log
+
+# DS_Store from Mac
+.DS_Store
