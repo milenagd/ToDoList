@@ -1,0 +1,23 @@
+$yellow: #FCFCB6;
+ 
+.app {
+    width: 50%;
+    min-width: 365px;
+    margin: auto;
+}
+
+.title {
+    margin: auto auto 10px auto;
+    text-align: center;
+}
+
+.wrapperList {
+    margin-top: 10px;
+    height: 459px;
+    background: $yellow;
+    box-shadow: 0px 5px 10px #212121;
+}
+
+.wrapperListScroll {
+    overflow-y: scroll;
+}
