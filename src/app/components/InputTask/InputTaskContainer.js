@@ -20,7 +20,7 @@ class InputTaskContainer extends React.Component {
       this.props.add(event.target.value);
       event.target.value = '';
       this.setState({ isValidInput: true });
-    } else if (event.key === 'Enter' && !event.target.value){
+    } else if (event.key === 'Enter' && !event.target.value) {
       this.setState({ isValidInput: false });
     }
   };

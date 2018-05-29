@@ -4,7 +4,7 @@ import { array, func } from 'prop-types';
 
 import styles from './List.scss';
 
-const List = (props) => (
+const List = props => (
   <ul className={styles.list}>
     {props.tasks.map(item => {
       return (

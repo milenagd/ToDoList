@@ -3,8 +3,7 @@ export const showTasksList = event => ({
   event,
 });
 
-
 export const listViewType = {
-	all: 'ALL',
-	completed: 'COMPLETED',
-}
+  all: 'ALL',
+  completed: 'COMPLETED',
+};

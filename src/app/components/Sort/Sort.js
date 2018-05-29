@@ -5,7 +5,7 @@ import { sortOptions } from 'constants/sortOptions';
 
 const Sort = ({ handleChange }) => (
   <Filter
-  	id={sortOptions.id}
+    id={sortOptions.id}
     label={sortOptions.label}
     options={sortOptions.options}
     handleChange={handleChange}
